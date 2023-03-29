@@ -1,0 +1,114 @@
+@use './mixins/mixins.scss' as *;
+
+@font-face {
+  font-family: "edy-ui-icons"; /* Project id 2014770 */
+  src: url('./fonts//iconfont.woff2') format('woff2'),
+       url('./fonts/iconfont.woff') format('woff'),
+       url('./fonts/iconfont.ttf') format('truetype');
+}
+
+[class^='#{$namespace}-icon'],[class*= '#{$namespace}-icon'] {
+  font-family: "edy-ui-icons" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.#{$namespace}-icon_bingxiang:before {
+  content: "\e712";
+}
+
+.#{$namespace}-icon_diancifa:before {
+  content: "\e713";
+}
+
+.#{$namespace}-icon_chufangreshuiqi:before {
+  content: "\e714";
+}
+
+.#{$namespace}-icon_dianti:before {
+  content: "\e715";
+}
+
+.#{$namespace}-icon_dianshi:before {
+  content: "\e716";
+}
+
+.#{$namespace}-icon_famen:before {
+  content: "\e717";
+}
+
+.#{$namespace}-icon_kongtiao:before {
+  content: "\e718";
+}
+
+.#{$namespace}-icon_kongtiao2:before {
+  content: "\e719";
+}
+
+.#{$namespace}-icon_jichuang:before {
+  content: "\e71a";
+}
+
+.#{$namespace}-icon_diancilu:before {
+  content: "\e71b";
+}
+
+.#{$namespace}-icon_saodijiqiren:before {
+  content: "\e71c";
+}
+
+.#{$namespace}-icon_paiqishan:before {
+  content: "\e71d";
+}
+
+.#{$namespace}-icon_touyingyi:before {
+  content: "\e71e";
+}
+
+.#{$namespace}-icon_reshuiqi1:before {
+  content: "\e71f";
+}
+
+.#{$namespace}-icon_zhankai:before {
+  content: "\e720";
+}
+
+.#{$namespace}-icon_kongyaji:before {
+  content: "\e721";
+}
+
+.#{$namespace}-icon_chazuo:before {
+  content: "\e722";
+}
+
+.#{$namespace}-icon_zhaoming:before {
+  content: "\e723";
+}
+
+.#{$namespace}-icon_xiyiji:before {
+  content: "\e724";
+}
+
+.#{$namespace}-icon_shuilongtou:before {
+  content: "\e725";
+}
+
+.#{$namespace}-icon_weibolu:before {
+  content: "\e726";
+}
+
+.#{$namespace}-icon_reshuiqi2:before {
+  content: "\e727";
+}
+
+.#{$namespace}-icon_zhusuji:before {
+  content: "\e728";
+}
+
+.#{$namespace}-icon_qizhongji:before {
+  content: "\e729";
+}
+
+

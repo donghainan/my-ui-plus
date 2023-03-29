@@ -1,0 +1,23 @@
+{
+  "name": "@edy-plus",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm -C play dev"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.60.0",
+    "typescript": "^5.0.2",
+    "vue": "^3.2.36"
+  },
+  "dependencies": {
+    "@edy-plus/components": "workspace:^",
+    "@edy-plus/theme-chalk": "workspace:^",
+    "@edy-plus/utils": "workspace:^"
+  }
+}
