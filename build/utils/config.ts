@@ -3,7 +3,7 @@ import { outDir } from './paths'
 
 export const buildConfig = {
   esm: {
-    module: 'ESNext',
+    module: 'esnext',
     format: 'es',
     output: {
       name: 'es',
@@ -14,7 +14,7 @@ export const buildConfig = {
     }
   },
   cjs: {
-    module: 'CommonJsS',
+    module: 'commonjs',
     format: 'cjs',
     output: {
       name: 'lib',

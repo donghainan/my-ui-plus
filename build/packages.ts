@@ -8,7 +8,6 @@ import ts from 'gulp-typescript'
 export const buildPackages = (dirname: string, name: string) => {
 	const tasks = Object.entries(buildConfig).map(([module, config]) => {
 		const output = path.resolve(dirname, config.output.name)
-		console.log('output======> ', output)
 
 		return series(
 			withTaskName(`build:${dirname}`, () => {
