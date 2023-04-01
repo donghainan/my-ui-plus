@@ -22,7 +22,7 @@ function copyFont() {
 
 function copyFullStyle() {
 	return src(path.resolve(__dirname, './dist/**')).pipe(
-		dest(path.resolve(__dirname, '../../dist/theme-chalk'))
+		dest(path.resolve(__dirname, '../../edy-plus/theme-chalk'))
 	)
 }
 

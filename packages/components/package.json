@@ -1,12 +1,21 @@
 {
   "name": "@edy-plus/components",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.ts",
+  "main": "lib/index.js",
+  "module": "es/index.js",
   "scripts": {
-    "build": "gulp"
+    "build": "vite build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "files": [
+    "es",
+    "lib"
+  ],
+  "keywords": [
+    "edy-plus",
+    "vue3组件库"
+  ],
+  "author": "dhn",
+  "license": "MIT",
+  "description": "",
+  "typings": "lib/index.d.ts"
 }
